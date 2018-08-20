@@ -1,0 +1,26 @@
+{
+  "name": "vtop-cal",
+  "version": "1.0.0",
+  "description": "Export Timetable From VTOP v2 to Importable Calendar ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vtop",
+    "v2",
+    "calendar"
+  ],
+  "author": "darshkpatel",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-tableparser": "^1.0.1",
+    "ical-generator": "^0.2.10",
+    "moment": "^2.22.2",
+    "request-promise-native": "^1.0.5",
+    "tabletojson": "^0.9.8",
+    "vitauth2": "^3.0.0"
+  }
+}

@@ -2,7 +2,7 @@
   "name": "vtop-cal",
   "version": "1.0.0",
   "description": "Export Timetable From VTOP v2 to Importable Calendar ",
-  "main": "index.js",
+  "main": "final.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

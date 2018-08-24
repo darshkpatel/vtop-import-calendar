@@ -14,6 +14,8 @@ cookie = app.getAuthCookie(configs.username, configs.password, reqpage);
 var duration_class = 50;
 var duration_lab = 45;
 const days = ['su', 'mo', 'tu', 'we', 'th', 'fr','sa'];
+
+
 function addClass(block, class_code, faculty,class_desc, location, day){
     if(block[0]=='L'){
         var et =  new Date(createTimefromBlock(block,day).valueOf() + 60*duration_lab*1000);
@@ -43,7 +45,6 @@ function addClass(block, class_code, faculty,class_desc, location, day){
 
 
 function createTimefromBlock(blk, day){
-
     var blockTiming = {};
     day = days[day]
     blockTiming["A1"] = {"mo":[8,0], "we":[9,0]};

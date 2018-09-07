@@ -1,5 +1,5 @@
 # vtop-import-calendar 
-### A NodeJS Script to Export a .ical file which can be imported to most calendars
+### A NodeJS Script to Export VIT Student Timetable to a .ical file which can be imported to most calendars
 
 ## Installing
 * Clone/Download Github Repo
